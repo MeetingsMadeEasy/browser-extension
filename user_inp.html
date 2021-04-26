@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Meeting Info</title>
+    <!<link href="meetings.css" rel="stylesheet">
+</head>
+
+<body>
+    <form method="post">
+        <h1>Meeting Info Form</h1>
+        <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+        <section>
+            </fieldset>
+            <p>
+              <label for="name">
+                <span>Meeting Name: </span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="text" id="name" name="ZoomUser">
+            </p>
+            <p>
+              <label for="id">
+                <span>Meeting ID</span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="text" id="meetid" name="meetingid">
+            </p>
+            <p>
+              <label for="pwd">
+                <span>Password: </span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="password" id="pwd" name="password">
+            </p>
+        </section>
+        <section>
+            <h2>Scheduling</h2>
+            <p>
+              <label for="meeting">
+                <span>Meeting type:</span>
+              </label>
+              <select id="card" name="usercard">
+                <option value="day">Daily</option>
+                <option value="multi">Multi</option>
+                <option value="week">Weekly</option>
+              </select>
+            </p>
+            
+            <p>
+              <label for="date">
+                <span>Last Day:</span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="date" id="date" name="expiration">
+            </p>
+        </section>
+        <p>
+            <label for="pwd">
+              <span>Start Time: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="startTime" id="time" name="time">
+          </p>
+        <section>
+            <p> <button type="submit">Submit</button> </p>
+        </section>
+        <section>
+            <p> <button type="clear">Reset</button> </p>
+        </section>
+    </form>
+</body>
+
+</html>
