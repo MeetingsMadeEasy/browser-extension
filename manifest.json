@@ -1,0 +1,20 @@
+{
+"name" : "Automated Meeting Launcher",
+"description" : "Designed to make your daily meetings more convenient",
+"version" : "1.0",
+"manifest_version" : 3,
+"background" : {
+    "service_worker" : "background-wrapper.js"
+}, 
+
+
+"permissions" : ["storage","alarms","tabs","scripting","notifications"],
+
+"action" : {
+    "default_icon" : "sample-icon.png",
+   "default_title" : "Extension!"
+}
+
+
+
+}
