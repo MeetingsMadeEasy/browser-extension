@@ -13,7 +13,7 @@
 
   chrome.action.onClicked.addListener(function () {
     console.log("opening!")
-    chrome.tabs.create({ url: chrome.runtime.getURL("main.html") });
+    chrome.tabs.create({ url: chrome.runtime.getURL("/webiste_directory/main.html") });
 });
   //chrome.app.runtime.onLaunched.addListener(() => {
     //chrome.app.window.create('/user_inp.html', {
